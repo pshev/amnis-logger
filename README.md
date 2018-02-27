@@ -27,7 +27,7 @@ import {rootReducer} from './reducers'
   
 const store = createStore(withLogging(reducer, {collapsed: true}))
 ```
-You can configured the logger by passing in the `options` parameter as the seconds argument.
+You can configured the logger by passing in the `options` parameter as the second argument.
 <br />
 Please refer to [`redux-logger`](http://npm.im/redux-logger)'s documentation for the list of available options.
 ```js    
