@@ -1,0 +1,28 @@
+{
+  "name": "amnis-logger",
+  "version": "1.0.0",
+  "description": "Logger for Amnis applications",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "jsnext:main": "dist/index.m.js",
+  "unpkg": "dist/index.umd.js",
+  "jsdelivr": "dist/index.umd.js",
+  "author": "Peter Shev <piotrsevcenco@gmail.com> (http://petershev.com/)",
+  "scripts": {
+    "build": "microbundle --compress false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pshev/amnis-logger.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pshev/amnis-logger/issues"
+  },
+  "homepage": "https://github.com/pshev/amnis-logger",
+  "devDependencies": {
+    "microbundle": "0.4.4",
+    "redux-logger": "3.0.6"
+  }
+}
